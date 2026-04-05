@@ -2,7 +2,8 @@
 
 ## Project Overview
 This project demonstrates the design and implementation of a data warehouse using Oracle 19c.
-This project transforms raw food order data into a structured star schema and performs analytical queries to generate business insights such as revenue trends, customer behavior, and location-based performance.
+It transforms raw food order data into a structured star schema and performs analytical queries to generate business insights such as revenue trends, customer behavior, and location-based performance.
+The project follows a complete ETL and data warehousing pipeline from raw data processing to analytical reporting.
 
 ---
 
@@ -15,8 +16,6 @@ This project transforms raw food order data into a structured star schema and pe
 
 ## Project Flow
 Raw Data → Data Cleaning → Dimension Tables → Fact Table → KPI Analysis → Business Insights
-
----
 
 ---
 
@@ -62,6 +61,14 @@ The project follows a star schema design to optimize data analysis and querying.
 - SQL query writing and optimization  
 - Data cleaning and transformation techniques  
 - Oracle database management  
+
+---
+
+## Key Business Insights 
+- Majority of orders fall within the 200–300 NPR price range
+- Certain cities contribute the highest order volume
+-  Monthly trends show variation in customer demand
+-  Higher-rated dishes tend to have more order frequency
 
 ---
 
